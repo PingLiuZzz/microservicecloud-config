@@ -8,7 +8,7 @@ spring：
 eureka:
   client:
     service-uri:
-      defualtZone: http://eureka.-dev.com:7001/eureka/
+      defualtZone: http://eureka-dev.com:7001/eureka/
 ---
 server：
   port：8202
@@ -19,4 +19,4 @@ spring：
 eureka:
   client:
     service-uri:
-      defualtZone: http://eureka.-dev.com:7001/eureka/
+      defualtZone: http://eureka-test.com:7001/eureka/
